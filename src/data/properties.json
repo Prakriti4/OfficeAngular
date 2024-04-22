@@ -1,0 +1,12 @@
+[
+    {"Id":1,"SellRent":1,"Image":"prop1 (1)","Name":"Birla House","Type":"House","Price":12000},
+    {"Id":2,"SellRent":2,"Image":"prop1 (2)","Name":"Bista House","Type":"Villa","Price":12000},
+    {"Id":3,"SellRent":1,"Image":"prop1 (3)","Name":"Khatiwada House","Type":"House","Price":12000},
+    {"Id":4,"SellRent":2,"Image":"prop1 (4)","Name":"Thapa House","Type":"Flat","Price":12000},
+    {"Id":5,"SellRent":1,"Image":"prop1 (5)","Name":"Pandey House","Type":"Villa","Price":12000},
+    {"Id":6,"SellRent":2,"Image":"prop1 (6)","Name":"Khatri House","Type":"House","Price":12000},
+    {"Id":7,"SellRent":1,"Image":"prop1 (7)","Name":"Biraj House","Type":"Tajmahal","Price":12000},
+    {"Id":8,"SellRent":2,"Image":"prop1 (8)","Name":"Magar House","Type":"House","Price":12000},
+    {"Id":9,"SellRent":1,"Image":"prop1 (9)","Name":"Subedi House","Type":"Rented","Price":12000},
+    {"Id":10,"SellRent":2,"Name":"Niraula House","Type":"House","Price":12000}
+  ]

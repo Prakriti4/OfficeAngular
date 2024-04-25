@@ -6,6 +6,8 @@ import {FormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import {TabsModule} from 'ngx-bootstrap/tabs';
 
 import { Routes,RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -20,6 +22,7 @@ import { UserLoginComponent } from './user/user-login/user-login/user-login.comp
 import { UserServiceService } from './services/user-service.service';
 import { AlertifyService } from './services/alertify.service';
 import { AuthService } from './services/auth.service';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 
 
@@ -53,7 +56,10 @@ const appRoutes: Routes= [
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    TabsModule.forRoot(),
+    ButtonsModule.forRoot(),
+    BsDatepickerModule.forRoot()
   ],
   providers: [
     HousingService,
